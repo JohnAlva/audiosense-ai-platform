@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  audiosense:
+    build: .
+    container_name: audiosense-api
+    ports:
+      - "8000:8000"
+    environment:
+      - WHISPER_MODEL=base
+      - MAX_FILE_SIZE_MB=25
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 3
