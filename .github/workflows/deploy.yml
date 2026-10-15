@@ -19,4 +19,5 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         if: env.HF_TOKEN != ''
         run: |
-          git push --force https://JohnAlva:$HF_TOKEN@huggingface.co/spaces/JohnAlva/AudioSense-AI main
+          git push --force https://AlvaJohn:$HF_TOKEN@huggingface.co/spaces/AlvaJohn/AudioSense-AI main
+
