@@ -1,5 +1,6 @@
 # 🎙️ AudioSense AI — Speech & Acoustic Intelligence Platform
 
+[![Live API](https://img.shields.io/badge/Live_API-Swagger_UI-00F7FF?style=flat-square&logo=swagger&logoColor=black)](https://audiosense-ai-platform.onrender.com/docs)
 [![Python CI](https://github.com/JohnAlva/audiosense-ai-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/JohnAlva/audiosense-ai-platform/actions)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-005571?style=flat-square&logo=fastapi&logoColor=white)](#)
 [![Whisper](https://img.shields.io/badge/OpenAI-Whisper_OSS-412991?style=flat-square&logo=openai&logoColor=white)](#)
@@ -84,3 +85,4 @@ pytest -v tests/
 *Fullstack Developer | Backend Specialist*  
 * GitHub: [@JohnAlva](https://github.com/JohnAlva)  
 * LinkedIn: [alvcode](https://www.linkedin.com/in/alvcode)
+
